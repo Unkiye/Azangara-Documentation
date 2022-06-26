@@ -1,0 +1,343 @@
+//Ladder
+$ladder
+{
+	$alight 1
+	
+	$model "models/ctrls/ladder.mmd"
+	$texture "textures/ctrls/ladder.tga"
+	$mdl_cross "models/ctrls/perila.mmd"
+	$tex_cross "textures/ctrls/pipe.tga"
+}
+
+//Chain
+$chain
+{
+	$alight 1
+	
+	$model "models/ctrls/chain.mmd"
+	$texture "textures/ctrls/chain.tga"
+//	$mdl_cross "models/ctrls/perila_ch.mmd"
+	$tex_cross "textures/ctrls/pipe.tga"
+}
+
+//Pipe
+$pipe
+{
+	$alight 1
+	
+	$texture "textures/ctrls/pipe.tga"
+	$model "models/ctrls/pipe.mmd"
+	$base_model "models/ctrls/pipe_base.mmd"
+}
+
+//Fire
+$fire
+{
+	$texture "textures/ctrls/fire4.tga"
+	
+	$bbox_scale 1
+	
+	$color 1 1 1
+	$part_speed 0.2
+	$part_size 0.2
+	$max_parts 7
+	$disperse 0.025
+	
+	$sound "sounds/fire_work.ogg"
+}
+
+//White door
+$door_a
+{
+	$alight 1
+	
+	$model "models/ctrls/door.mmd"
+	$texture "textures/ctrls/door_white.tga"
+	
+	$open_speed 10.0
+	$crack_speed 0.5
+	
+	$sound "sounds/door_open.ogg"
+	$sound_crack "sounds/asylum_door.ogg"
+	$sound_close "sounds/close_door.ogg"
+}
+
+//Blue door
+$door_b
+{
+	$alight 1
+	
+	$model "models/ctrls/door.mmd"
+	$texture "textures/ctrls/door_blue.tga"
+	
+	$open_speed 10.0
+	$crack_speed 0.5
+	
+	$sound "sounds/door_open.ogg"
+	$sound_crack "sounds/asylum_door.ogg"
+	$sound_close "sounds/close_door.ogg"
+}
+
+//Red door
+$door_c
+{
+   	$alight 1
+	
+	$model "models/ctrls/door.mmd"
+	$texture "textures/ctrls/door_red.tga"
+	
+	$open_speed 10.0
+	$crack_speed 0.5
+	
+	$sound "sounds/door_open.ogg"
+	$sound_crack "sounds/asylum_door.ogg"
+	$sound_close "sounds/close_door.ogg"
+}
+
+//Green door
+$door_d
+{
+	$alight 1
+	
+	$model "models/ctrls/door.mmd"
+	$texture "textures/ctrls/door_green.tga"
+	
+	$open_speed 10.0
+	$crack_speed 0.5
+	
+	$sound "sounds/door_open.ogg"
+	$sound_crack "sounds/asylum_door.ogg"
+	$sound_close "sounds/close_door.ogg"
+}
+
+//Brown door
+$door_e
+{
+	$alight 1
+	
+	$model "models/ctrls/door.mmd"
+	$texture "textures/ctrls/door_brown.tga"
+	
+	$open_speed 10.0
+	$crack_speed 0.5
+	
+	$sound "sounds/door_open.ogg"
+	$sound_crack "sounds/asylum_door.ogg"
+	$sound_close "sounds/close_door.ogg"
+}
+
+//Exit
+$level_exit
+{
+	$alight 1
+	
+	$model "models/ctrls/exit.mmd"
+	$texture "textures/ctrls/exit.tga"	
+	
+	$spawn_rot 7
+	
+	$sound "sounds/exit_teleporter_loop.ogg"
+}
+
+//Airway
+$airway_down
+{
+	$alight 1
+	
+	$tex_base "textures/ctrls/pipe.tga"
+	$model_base "models/ctrls/pipe_base.mmd"
+	
+	$part_tex "textures/shock.jpg"
+	$part_count 50
+	$part_speed 0.5 1
+	$part_size 0.05 0.1
+	$part_disp 0.01
+	$part_blend "blend"
+}
+
+//Force field
+$force_field
+{
+	$origin
+	{
+		$cell_pos 0 0
+		$length 2
+		$horz 0
+	}
+	
+	$frames
+	{
+		$texture "textures/ctrls/flash01.png"
+		$texture "textures/ctrls/flash02.png"
+		$texture "textures/ctrls/flash03.png"
+		$texture "textures/ctrls/flash04.png"
+		$texture "textures/ctrls/flash05.png"
+		$texture "textures/ctrls/flash06.png"
+	}
+	
+	$wait_time 0.5		
+	$vis_time 2.0		
+	$invis_time 2.0
+	
+	$flash_time 0.5	
+	$flash_count 18
+	$flash_width 0.2	
+	$flash_fps 15
+	
+	$sound "sounds/ffield_loop.ogg"
+}
+//
+$disapp_plat
+{
+	$origin
+	{
+		$cell_pos 0 0
+		$length 2		
+	}
+	
+	$frames
+	{
+		$texture "textures/ctrls/pl_00000.tga"
+		$texture "textures/ctrls/pl_00001.tga"
+		$texture "textures/ctrls/pl_00002.tga"
+		$texture "textures/ctrls/pl_00003.tga"
+		$texture "textures/ctrls/pl_00004.tga"
+		$texture "textures/ctrls/pl_00005.tga"
+		$fps 20
+	}
+	
+	//$tex_speed 0
+	
+	$wait_time 0.5
+	$show_time 3
+	$hide_time 0.7
+	
+	$sound "sounds/disapp_plat_loop.ogg"
+}
+//
+$restore_plat
+{
+	$alight 1
+	
+	$origin
+	{
+		$cell_pos 0 0
+	}
+	
+	$model "models/ctrls/restore_plat.mmd"
+	$texture "textures/ctrls/restore_plat.tga"
+	
+	$fall_speed 0.3		
+	$elevate_speed 0.5			
+	$fall_dist 0				
+
+	$sound_down "sounds/res_plat_down.ogg"
+	$sound_down_stop "sounds/res_plat_down_stop.ogg"
+	$sound_up "sounds/res_plat_up.ogg"
+	$sound_up_stop "sounds/res_plat_up_stop.ogg"
+}
+//
+$lift
+{
+	$alight 1
+	
+	$origin
+	{
+		$cell_pos 0 0 
+		$length 2 
+		$horz 0 
+		$pos 0
+	}
+	
+	$wait_time 0.5
+	
+	$dir 1
+	
+	$rail_item "models/ctrls/rail_tile.mmd"		
+	$rail_close "models/ctrls/rail_end.mmd"	
+	$rail_tex "textures/ctrls/rail.tga"	
+
+	$model "models/ctrls/lift_plat_02.mmd"		
+	$texture "textures/ctrls/platforms.tga"
+	
+	$move_speed 1.0
+	$stop_time 1.0
+
+	$sound_loop "sounds/lift_loop.ogg"
+	$sound_stop "sounds/lift_stop.ogg"
+	$sound_touch "sounds/lift_kick.ogg"
+}
+//
+$conveyer
+{
+	$alight 1
+	
+	$origin
+	{
+		$cell_pos 0 0	
+		$length 2
+	}
+	
+	$model "models/ctrls/conv.mmd"		
+	$texture "textures/ctrls/pipe_d.png"
+
+	$speed 0.5
+	$sound "sounds/conv_loop.ogg"
+}
+//
+$teleport
+{
+	$pos 0 0 1.5
+	
+	$name ""
+	$target ""
+	
+	$model ""
+	$texture ""
+	
+	$parts "scripts/ps/tele_blue.txt"
+	$parts_pos 0 0 0
+	$parts_inout "scripts/ps/tele_inout.txt"
+	
+	$bbox
+	{
+		$min -0.03 0 -0.1
+		$max 0.03 0.5 0.1
+	}
+	
+	$sound "sounds/tele_loop.wav"
+	$sound_inout "sounds/tele_out.wav"
+	
+	$time_start 0
+	$time_work 1
+	$time_pause 0
+}
+//
+$airflow
+{
+	$pos 0 0 0
+	$bbox
+	{
+		$min -0.1 0 -0.1
+		$max 0.1 2.7 0.1
+	}
+	
+	$time_start 0
+	
+	$time_up 2.5
+	$time_up_pause 1
+	
+	$time_down 2
+	$time_down_pause 1
+	
+	$speed 1.5
+	
+	$height 1
+	
+	$part_tex "textures/smoke2.tga"
+	$part_blend "add"
+	$part_count 50
+	$part_speed 0.5 1
+	$part_size 0.05 0.2
+	$part_disp 0.05
+}

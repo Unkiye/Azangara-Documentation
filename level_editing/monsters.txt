@@ -1,0 +1,86 @@
+//$decor, $tag is excluded as it is not usually used, but you can add it where needed.
+
+$monster
+{
+	$name "skull"
+	$pos 0 0 0 0
+	$dir 1
+	$level 0
+}
+
+$monster
+{
+	$name "j_skull"
+	$pos 0 0 0 0
+	$dir 1
+	$level 0
+}
+
+$monster
+{
+	$name "snake"
+	$pos 0 0
+	$level 0
+}
+
+$monster
+{
+	$name "snake2"
+	$pos 0 0
+	$attack_dist 2
+	$attack_time 2 4
+	$bluff_time 3 3
+	$level 0
+}
+
+$monster
+{
+	$name "snake3"
+	$pos 0 0
+	$level 0
+}
+
+$monster
+{
+	$name "bat"
+	$pos 0 0 0 0
+	$pos_lerp 0
+	$level 0
+}
+
+$monster
+{
+	$name "spider"
+	$pos 0 0
+	$dir 1
+	$level 0
+}
+
+$monster
+{
+	$name "scorpion"
+	$pos 0 0
+	$move_type 0
+	$dir 1
+	$level 0
+}
+
+$monster
+{
+	$name "mummy"
+	$pos 0 0 0 0
+	$dir 1
+	$level 0
+}
+
+$monster
+{
+	$name "mummy2"
+	$pos 0 0 0 0
+	$dir 1
+	$walk_time 10 20
+	$walk_wait 5 10
+	$sit_time 10 20
+	$wait_time 5 10
+	$level 0
+}

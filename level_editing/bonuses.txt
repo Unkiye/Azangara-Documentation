@@ -1,0 +1,127 @@
+//$decor, $time, $tag is excluded as it is not usually used, but you can add it where needed.
+
+$bonus
+{
+	$name "sys"
+	$pos 0 0
+}
+
+$bonus
+{
+	$name "key_a"
+	$pos 0 0
+}
+
+$bonus
+{
+	$name "key_b"
+	$pos 0 0
+}
+
+$bonus
+{
+	$name "key_c"
+	$pos 0 0
+}
+
+$bonus
+{
+	$name "key_d"
+	$pos 0 0
+}
+
+$bonus
+{
+	$name "uni_key"
+	$pos 0 0
+}
+
+$bonus
+{
+	$name "fomka"
+	$pos 0 0
+}
+
+$bonus
+{
+	$name "bonus"
+	$pos 0 0
+}
+
+$bonus
+{
+	$name "bonus_t"
+	$pos 0 0
+}
+
+$bonus
+{
+	$name "bonus_0"
+	$pos 0 0
+}
+
+$bonus
+{
+	$name "bonus_1"
+	$pos 0 0
+}
+
+$bonus
+{
+	$name "bonus_2"
+	$pos 0 0
+}
+
+$bonus
+{
+	$name "bonus_3"
+	$pos 0 0
+}
+
+$bonus
+{
+	$name "bonus_4"
+	$pos 0 0
+}
+
+$bonus
+{
+	$name "bonus_5"
+	$pos 0 0
+}
+
+$bonus
+{
+	$name "knife"
+	$pos 0 0
+}
+
+$bonus
+{
+	$name "totem"
+	$pos 0 0
+}
+
+$bonus
+{
+	$name "torch"
+	$pos 0 0
+}
+
+$bonus
+{
+	$name "mega_bonus"
+	$pos 0 0
+}
+
+$bonus
+{
+	$name "quest"
+	$pos 0 0
+}
+
+$bonus
+{
+	$name "life"
+	$pos 0 0
+}
