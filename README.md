@@ -1,6 +1,6 @@
 #### Azangara-Documentation (WIP)
 * This documentation will help you create mods, levels and map packs for the game by editing or creating script files
-* Go to Wiki tab for advanced info
+* Go to [Wiki](https://github.com/Unkiye/Azangara-Documentation.wiki.git) tab for advanced info
 * Some things are taken from the [Level Editing Guide](https://www.dropbox.com/sh/agrpz6ng24efgb6/AAC96JIlXIMr7MjMZXR1pyjDa?dl=1) made by **Azanguru**
 ---
 ##### You can download all nedeed resources from here
