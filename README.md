@@ -11,7 +11,7 @@
 Keep in mind that data in these versions are slightly different from each other and they can be updated. If there is any problem, then report it on the [Official Azagara Discord](https://discord.gg/yyXQaBG) server or dm me in Discord.
 * `Notepad++` folder includes a dark theme and markdown files for the Azangara scripts that I use for Notepad++ (I recommend using this text editor, but obviously you can use any)
 * `level_editing` folder contains ready elements and paths to copy into your files
-    * `ctrls` file contains all entity objects
+    * `ctrls` file contains all default entity objects templates
     * `monster` flle contains all monsters *(copied from Azanguru's guide)*
     * `bonuses` file contains all bonuses list *(copied from Azanguru's guide)*
     * `statics_list` file contains all paths to the models and textures for statics
