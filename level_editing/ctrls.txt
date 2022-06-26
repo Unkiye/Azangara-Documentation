@@ -316,6 +316,7 @@ $teleport
 $airflow
 {
 	$pos 0 0 0
+	
 	$bbox
 	{
 		$min -0.1 0 -0.1
