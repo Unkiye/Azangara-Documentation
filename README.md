@@ -17,5 +17,5 @@ Keep in mind that data in these versions are slightly different from each other 
     * `statics_list` file contains all paths to the models and textures for statics
     * `statics` file constains some default statics templates used by the original level designers
     * `example_level` folder includes an example level, place in the assets folder
-* `menu` folder contains menu elements
+* `menu` folder contains menu elements templates
 * `pack` example of a map pack
