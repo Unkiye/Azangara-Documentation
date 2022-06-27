@@ -5,8 +5,8 @@
 ---
 ### You can download all nedeed resources from here
 * Links to the game versions on which everything is based
-    - [Russian version]()
-    - [English version]()
+    - [Russian version](https://goo-gl.me/aYCfA)
+    - [English version](https://goo-gl.me/tMwp9)
 
 Keep in mind that data in these versions are slightly different from each other and they can be updated. If there is any problem, then report it on the [Official Azagara Discord](https://discord.gg/yyXQaBG) server or dm me in Discord.
 
