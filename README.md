@@ -9,6 +9,8 @@
     - [English version]()
 
 Keep in mind that data in these versions are slightly different from each other and they can be updated. If there is any problem, then report it on the [Official Azagara Discord](https://discord.gg/yyXQaBG) server or dm me in Discord.
+
+---
 ### File sturcture
 * `Notepad++` folder includes a dark theme and markdown files for the Azangara scripts that I use for Notepad++ (I recommend using this text editor, but obviously you can use any)
 * `level_editing` folder contains ready elements and paths to copy into your files
@@ -19,4 +21,4 @@ Keep in mind that data in these versions are slightly different from each other 
     * `statics` file constains some default statics templates used by the original level designers
     * `example_level` folder includes an example level, place in the assets folder
 * `menu` folder contains menu element templates
-* `pack` example of a map pack
+* `example_pack` example of a map pack
