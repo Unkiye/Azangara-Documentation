@@ -1,0 +1,81 @@
+[28.06.22]
+
+Textures:
+** Effects **
+
+textures/dlight.jpg
+textrues/dust2.tga
+textrues/smoke2.tga
+textrues/exit_part.jpg
+textrues/fire.bmp
+textrues/shock.jpg
+textrues/shock2.jpg
+textrues/star.tga
+textures/ctrls/fire4.tga
+
+** Animated effects **
+
+//Old force field
+From:
+textures/ctrls/flash00.jpg
+To:
+textures/ctrls/flash08.jpg
+
+//New force field
+From:
+textures/ctrls/flash01.png
+To:
+textures/ctrls/flash06.png
+
+//Disappearing platform
+From:
+textures/ctrls/pl_00000.tga
+To:
+textures/ctrls/pl_00005.tga
+
+
+** Static textures **
+their path will be the same:
+
+textures/statics/ + 
+
+Glows:
+
+glow.jpg //orange glow
+glow_0_3.jpg //yellow glow
+glow_4_3.jpg //weak yellow glow
+glow_1_1.jpg //weak brownish glow
+glow_4_1.jpg or glow_orange.jpg //brownish glow
+glow_1_3.jpg //blue glow
+glow_1_5.jpg //light blue glow
+glow_magenta.bmp //magenta glow
+
+** Lamps: **
+
+Vertical:
+
+lit_vert_01.jpg // black, located in JUST textures/ !!
+l_01.jpg or l_02_orange.jpg //brown
+l_01_orange.jpg //ornage
+l_01_00_01.jpg //gold
+l_01_02_02.jpg //fully blue
+l_01_2.jpg //green
+l_01_03_1.jpg or l_01_03_3.jpg //gray
+l_magenta.bmp //magenta
+l_red.bmp // red
+
+Horizontal:
+
+lit_horz_03.jpg //black / magenta, located in JUST textures/ !!
+l_03.jpg //green
+l_03_2_1.jpg //blue
+l_orange.jpg //orange
+lampa_2_03_02.jpg //yellow
+lh_red.bmp //red
+
+
+** Gradients **
+[to do...]
+
+** Models **
+[to do...]

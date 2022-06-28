@@ -1,0 +1,71 @@
+/* I recommend reading the static item explaniation on the Wiki if you don't know what these varables do */
+/* Never use number more than 1 in $color */
+
+/* Light source */
+$item
+{
+	$pos 0 0 0
+	$light
+	{
+		$color 1 1 1
+		$range 1
+	}
+}
+
+/* Horizontal lamp */
+$item
+{
+	$pos 0 0 1
+	$model "models/lit_horz_03.mmd"
+	$texture "textures/lit_horz_03.jpg"
+	$light
+	{
+		$offs 0 0 0.5
+		$color 1 1 1
+		$range 1
+	}
+}
+
+/* Horizontal lamp glow */
+
+//~
+
+/* Vertical lamp */
+/* Z axis: 0 - Wall placement; 3 - Floor placement */
+
+$item
+{
+	$pos 0 0 0
+	$model "models/lit_vert_01.mmd"
+	$texture "textures/lit_vert_01.jpg"
+	$light
+	{
+		$offs 0 0 1.5
+		$color 1 1 1
+		$range 1
+	}
+}
+
+/* Vertical lamp glow */
+
+//~
+
+/* Idol 1 */
+$item
+{
+	$pos 0 0 0
+	$model "models/statics/Idol_3_2_03.mmd"
+	$texture "textures/statics/Idol_02.jpg"
+	$rotate 0 3.15 0
+	$scale 4 4 1
+}
+
+/* Idol 2 */
+$item
+{
+	$pos 0 0 0
+	$model "models/statics/Idol_3_2_01.mmd"
+	$texture "textures/statics/aztec027.jpg"
+	$rotate 0 3.15 0
+	$scale 4.5 4 3
+}
