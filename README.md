@@ -17,7 +17,7 @@ Keep in mind that data in these versions are slightly different from each other 
     * `ctrls` file contains all default entity objects templates
     * `monster` flle contains all monsters *(copied from Azanguru's guide)*
     * `bonuses` file contains all bonuses list *(copied from Azanguru's guide)*
-    * `statics_list` file contains all paths to the models and textures for statics
+    * `models_and_textures_list` file contains all paths to the models and textures for statics
     * `statics` file constains some default statics templates used by the original level designers
     * `example_level` folder includes an example level, place in the assets folder
 * `menu` folder contains menu element templates
